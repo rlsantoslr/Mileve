@@ -94,7 +94,6 @@
 .card-area .card {
   max-height: 600px;
   max-width: 500px;
-  min-width: 400px;
   margin: auto;
 }
 .card-area .card img {
