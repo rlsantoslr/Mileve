@@ -90,7 +90,7 @@
                                     <a class="nav-link" href="#">Configurações</a>
                                 </li>
                             </ul>
-                            <hr/>
+                            <hr />
                             <div class="row">
                                 <div class="col-lg-12">
                                     <p>Precisa de ajuda?</p>
@@ -107,53 +107,32 @@
             </nav>
         </div>
         <div class="col">
-            <div class="position-relative overflow-hidden m-md-3 text-center h-100 main-content mx-5 mt-5">
-                <div class="row mt-5">
-                    <div class="col-lg-4"></div>
-                    <div class="col">
-                        <h4 class="fw-bold">
-                            Agende sua rota e deixe que te levaremos. Não esqueça de ligar a geolocalização
-                        </h4>
-                    </div>
-                    <div class="col-lg-4"></div>
-                </div>
-                <div class="row bg-gray-50 mt-5">
-                    <div class="col-lg-2"></div>
-                    <div class="col">
-                        <div class="card">
-                            <div class="card-body">
-                                <a href="travel.html" class="text-dark">
-                                    <i class="fas fa-2x fa-hospital text-main mb-2"></i>
-                                    <h4>Hospital</h4>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card">
-                            <div class="card-body">
-                                <a href="travel.html" class="text-dark">
-                                    <i class="fas fa-2x fa-briefcase text-main mb-2"></i>
-                                    <h4>Trabalho</h4>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card">
-                            <div class="card-body">
-                                <a href="travel.html" class="text-dark">
-                                    <i class="fas fa-2x fa-hand-peace text-main mb-2"></i>
-                                    <h4>Outros</h4>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-2"></div>
-                </div>
+            <div class="position-relative overflow-hidden m-md-3 text-center h-100 main-content mx-xl-5">
                 <div class="row my-5  mx-auto">
-                    <div class="col">
-                        <iframe height="500"
+                    <div class="col-lg-4">
+                        <div class="row">
+                            <div class="col form-group mx-auto">
+                                <i class="fas fa-flag-checkered text-success"></i>
+                                <label for="travel-from" class="form-label fw-bold">Origem</label>
+                                <input id="travel-from" type="text" class="form-control" placeholder="Digite o endereço de origem" />
+                            </div>
+                        </div>
+                        <div class="row mt-4">
+                            <div class="col form-group mx-auto">
+                                <i class="fas fa-bullseye text-danger"></i>
+                                <label class="form-label fw-bold">Destino</label>
+                                <input type="text" class="form-control" placeholder="Digite o endereço de destino" />
+                            </div>
+                        </div>
+                        <div class="row mt-5 mb-5">
+                            <div class="col mx-auto">
+                                <div class="btn btn-secondary">Agendar minha viagem</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <iframe class="mx-auto"
+                                height="500"
                                 style="width: 100vw; border:0"
                                 loading="lazy"
                                 allowfullscreen
