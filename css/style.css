@@ -15,7 +15,7 @@
 }
 
 .text-white {
-  color: white;
+  color: white !important;
 }
 
 .bg-transparent {
@@ -108,4 +108,20 @@
 
 input {
   border-color: #37474d !important;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.offcanvas-header {
+  display: inline !important;
+  background-color: #1c2427;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .offcanvas {
+    width: 100%;
+  }
 }
